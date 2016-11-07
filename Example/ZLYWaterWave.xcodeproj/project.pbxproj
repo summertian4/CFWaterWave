@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		31DB307888DD05D6CF824DEB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E302FACB41C9440C318C7AA /* libPods.a */; };
-		82288D5E1CD1F23F00D0AB4D /* CFWaterWave.m in Sources */ = {isa = PBXBuildFile; fileRef = 82288D5D1CD1F23F00D0AB4D /* CFWaterWave.m */; };
 		829ACD541CC9CFCB00C66F05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 829ACD531CC9CFCB00C66F05 /* main.m */; };
-		829ACD5D1CC9CFCB00C66F05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 829ACD5B1CC9CFCB00C66F05 /* Main.storyboard */; };
 		829ACD5F1CC9CFCB00C66F05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 829ACD5E1CC9CFCB00C66F05 /* Assets.xcassets */; };
-		829ACD621CC9CFCB00C66F05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 829ACD601CC9CFCB00C66F05 /* LaunchScreen.storyboard */; };
-		829ACD6D1CC9CFCC00C66F05 /* CFWaterWaveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 829ACD6C1CC9CFCC00C66F05 /* CFWaterWaveTests.m */; };
-		829ACD781CC9CFCC00C66F05 /* CFWaterWaveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 829ACD771CC9CFCC00C66F05 /* CFWaterWaveUITests.m */; };
+		829ACD6D1CC9CFCC00C66F05 /* ZLYWaterWaveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 829ACD6C1CC9CFCC00C66F05 /* ZLYWaterWaveTests.m */; };
+		829ACD781CC9CFCC00C66F05 /* ZLYWaterWaveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 829ACD771CC9CFCC00C66F05 /* ZLYWaterWaveUITests.m */; };
 		829ACD8B1CC9D1D500C66F05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 829ACD891CC9D1D500C66F05 /* AppDelegate.m */; };
-		829ACD911CC9D34200C66F05 /* CFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829ACD901CC9D34200C66F05 /* CFViewController.m */; };
+		829ACD911CC9D34200C66F05 /* ZLYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829ACD901CC9D34200C66F05 /* ZLYViewController.m */; };
+		82CC1E901DD06F06004E8276 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CC1E8C1DD06F06004E8276 /* LaunchScreen.storyboard */; };
+		82CC1E911DD06F06004E8276 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CC1E8E1DD06F06004E8276 /* Main.storyboard */; };
+		82CC1E951DD07379004E8276 /* ZLYWaterWave.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CC1E941DD07379004E8276 /* ZLYWaterWave.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,36 +25,36 @@
 			containerPortal = 829ACD471CC9CFCB00C66F05 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 829ACD4E1CC9CFCB00C66F05;
-			remoteInfo = CFWaterWave;
+			remoteInfo = ZLYWaterWave;
 		};
 		829ACD741CC9CFCC00C66F05 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 829ACD471CC9CFCB00C66F05 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 829ACD4E1CC9CFCB00C66F05;
-			remoteInfo = CFWaterWave;
+			remoteInfo = ZLYWaterWave;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		82288D5C1CD1F23F00D0AB4D /* CFWaterWave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFWaterWave.h; sourceTree = "<group>"; };
-		82288D5D1CD1F23F00D0AB4D /* CFWaterWave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFWaterWave.m; sourceTree = "<group>"; };
-		829ACD4F1CC9CFCB00C66F05 /* CFWaterWave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFWaterWave.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		829ACD4F1CC9CFCB00C66F05 /* ZLYWaterWave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLYWaterWave.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		829ACD531CC9CFCB00C66F05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		829ACD5C1CC9CFCB00C66F05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		829ACD5E1CC9CFCB00C66F05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		829ACD611CC9CFCB00C66F05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		829ACD631CC9CFCB00C66F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		829ACD681CC9CFCC00C66F05 /* CFWaterWaveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFWaterWaveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		829ACD6C1CC9CFCC00C66F05 /* CFWaterWaveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFWaterWaveTests.m; sourceTree = "<group>"; };
+		829ACD681CC9CFCC00C66F05 /* WaterWaveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WaterWaveTests.xctest; path = ZLYWaterWaveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		829ACD6C1CC9CFCC00C66F05 /* ZLYWaterWaveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLYWaterWaveTests.m; sourceTree = "<group>"; };
 		829ACD6E1CC9CFCC00C66F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		829ACD731CC9CFCC00C66F05 /* CFWaterWaveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFWaterWaveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		829ACD771CC9CFCC00C66F05 /* CFWaterWaveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFWaterWaveUITests.m; sourceTree = "<group>"; };
+		829ACD731CC9CFCC00C66F05 /* ZLYWaterWaveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLYWaterWaveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		829ACD771CC9CFCC00C66F05 /* ZLYWaterWaveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLYWaterWaveUITests.m; sourceTree = "<group>"; };
 		829ACD791CC9CFCC00C66F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		829ACD881CC9D1D500C66F05 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		829ACD891CC9D1D500C66F05 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		829ACD8F1CC9D34200C66F05 /* CFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFViewController.h; sourceTree = "<group>"; };
-		829ACD901CC9D34200C66F05 /* CFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFViewController.m; sourceTree = "<group>"; };
+		829ACD8F1CC9D34200C66F05 /* ZLYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLYViewController.h; sourceTree = "<group>"; };
+		829ACD901CC9D34200C66F05 /* ZLYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLYViewController.m; sourceTree = "<group>"; };
+		82CC1E8D1DD06F06004E8276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ZLYWaterWave/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		82CC1E8F1DD06F06004E8276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ZLYWaterWave/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		82CC1E931DD07379004E8276 /* ZLYWaterWave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLYWaterWave.h; sourceTree = "<group>"; };
+		82CC1E941DD07379004E8276 /* ZLYWaterWave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLYWaterWave.m; sourceTree = "<group>"; };
 		874CD32B20F7D1B7678B5C32 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		9E302FACB41C9440C318C7AA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE74BC3AC3B88A35485464D0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,21 +86,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		82288D5B1CD1F23F00D0AB4D /* CFWaterWave */ = {
-			isa = PBXGroup;
-			children = (
-				82288D5C1CD1F23F00D0AB4D /* CFWaterWave.h */,
-				82288D5D1CD1F23F00D0AB4D /* CFWaterWave.m */,
-			);
-			path = CFWaterWave;
-			sourceTree = "<group>";
-		};
 		829ACD461CC9CFCB00C66F05 = {
 			isa = PBXGroup;
 			children = (
-				829ACD511CC9CFCB00C66F05 /* CFWaterWave */,
-				829ACD6B1CC9CFCC00C66F05 /* CFWaterWaveTests */,
-				829ACD761CC9CFCC00C66F05 /* CFWaterWaveUITests */,
+				829ACD511CC9CFCB00C66F05 /* ZLYWaterWave */,
+				829ACD6B1CC9CFCC00C66F05 /* ZLYWaterWaveTests */,
+				829ACD761CC9CFCC00C66F05 /* ZLYWaterWaveUITests */,
 				829ACD501CC9CFCB00C66F05 /* Products */,
 				A419799AE029CFC0689DE2DF /* Pods */,
 				E5E7858E3700839AABD03551 /* Frameworks */,
@@ -110,24 +101,23 @@
 		829ACD501CC9CFCB00C66F05 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				829ACD4F1CC9CFCB00C66F05 /* CFWaterWave.app */,
-				829ACD681CC9CFCC00C66F05 /* CFWaterWaveTests.xctest */,
-				829ACD731CC9CFCC00C66F05 /* CFWaterWaveUITests.xctest */,
+				829ACD4F1CC9CFCB00C66F05 /* ZLYWaterWave.app */,
+				829ACD681CC9CFCC00C66F05 /* WaterWaveTests.xctest */,
+				829ACD731CC9CFCC00C66F05 /* ZLYWaterWaveUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		829ACD511CC9CFCB00C66F05 /* CFWaterWave */ = {
+		829ACD511CC9CFCB00C66F05 /* ZLYWaterWave */ = {
 			isa = PBXGroup;
 			children = (
-				82288D5B1CD1F23F00D0AB4D /* CFWaterWave */,
+				82CC1E921DD07379004E8276 /* ZLYWaterWave */,
 				829ACD851CC9D1D500C66F05 /* Controller */,
-				829ACD861CC9D1D500C66F05 /* Model */,
 				829ACD871CC9D1D500C66F05 /* Other */,
 				829ACD8A1CC9D1D500C66F05 /* View */,
 				829ACD521CC9CFCB00C66F05 /* Supporting Files */,
 			);
-			path = CFWaterWave;
+			path = ZLYWaterWave;
 			sourceTree = "<group>";
 		};
 		829ACD521CC9CFCB00C66F05 /* Supporting Files */ = {
@@ -140,38 +130,31 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		829ACD6B1CC9CFCC00C66F05 /* CFWaterWaveTests */ = {
+		829ACD6B1CC9CFCC00C66F05 /* ZLYWaterWaveTests */ = {
 			isa = PBXGroup;
 			children = (
-				829ACD6C1CC9CFCC00C66F05 /* CFWaterWaveTests.m */,
+				829ACD6C1CC9CFCC00C66F05 /* ZLYWaterWaveTests.m */,
 				829ACD6E1CC9CFCC00C66F05 /* Info.plist */,
 			);
-			path = CFWaterWaveTests;
+			path = ZLYWaterWaveTests;
 			sourceTree = "<group>";
 		};
-		829ACD761CC9CFCC00C66F05 /* CFWaterWaveUITests */ = {
+		829ACD761CC9CFCC00C66F05 /* ZLYWaterWaveUITests */ = {
 			isa = PBXGroup;
 			children = (
-				829ACD771CC9CFCC00C66F05 /* CFWaterWaveUITests.m */,
+				829ACD771CC9CFCC00C66F05 /* ZLYWaterWaveUITests.m */,
 				829ACD791CC9CFCC00C66F05 /* Info.plist */,
 			);
-			path = CFWaterWaveUITests;
+			path = ZLYWaterWaveUITests;
 			sourceTree = "<group>";
 		};
 		829ACD851CC9D1D500C66F05 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				829ACD8F1CC9D34200C66F05 /* CFViewController.h */,
-				829ACD901CC9D34200C66F05 /* CFViewController.m */,
+				829ACD8F1CC9D34200C66F05 /* ZLYViewController.h */,
+				829ACD901CC9D34200C66F05 /* ZLYViewController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		829ACD861CC9D1D500C66F05 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		829ACD871CC9D1D500C66F05 /* Other */ = {
@@ -186,10 +169,19 @@
 		829ACD8A1CC9D1D500C66F05 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				829ACD5B1CC9CFCB00C66F05 /* Main.storyboard */,
-				829ACD601CC9CFCB00C66F05 /* LaunchScreen.storyboard */,
+				82CC1E8C1DD06F06004E8276 /* LaunchScreen.storyboard */,
+				82CC1E8E1DD06F06004E8276 /* Main.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		82CC1E921DD07379004E8276 /* ZLYWaterWave */ = {
+			isa = PBXGroup;
+			children = (
+				82CC1E931DD07379004E8276 /* ZLYWaterWave.h */,
+				82CC1E941DD07379004E8276 /* ZLYWaterWave.m */,
+			);
+			path = ZLYWaterWave;
 			sourceTree = "<group>";
 		};
 		A419799AE029CFC0689DE2DF /* Pods */ = {
@@ -212,9 +204,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		829ACD4E1CC9CFCB00C66F05 /* CFWaterWave */ = {
+		829ACD4E1CC9CFCB00C66F05 /* ZLYWaterWave */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 829ACD7C1CC9CFCC00C66F05 /* Build configuration list for PBXNativeTarget "CFWaterWave" */;
+			buildConfigurationList = 829ACD7C1CC9CFCC00C66F05 /* Build configuration list for PBXNativeTarget "ZLYWaterWave" */;
 			buildPhases = (
 				8FD5E200BE161589D5BD5F8C /* Check Pods Manifest.lock */,
 				829ACD4B1CC9CFCB00C66F05 /* Sources */,
@@ -227,14 +219,14 @@
 			);
 			dependencies = (
 			);
-			name = CFWaterWave;
-			productName = CFWaterWave;
-			productReference = 829ACD4F1CC9CFCB00C66F05 /* CFWaterWave.app */;
+			name = ZLYWaterWave;
+			productName = ZLYWaterWave;
+			productReference = 829ACD4F1CC9CFCB00C66F05 /* ZLYWaterWave.app */;
 			productType = "com.apple.product-type.application";
 		};
-		829ACD671CC9CFCC00C66F05 /* CFWaterWaveTests */ = {
+		829ACD671CC9CFCC00C66F05 /* ZLYWaterWaveTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 829ACD7F1CC9CFCC00C66F05 /* Build configuration list for PBXNativeTarget "CFWaterWaveTests" */;
+			buildConfigurationList = 829ACD7F1CC9CFCC00C66F05 /* Build configuration list for PBXNativeTarget "ZLYWaterWaveTests" */;
 			buildPhases = (
 				829ACD641CC9CFCC00C66F05 /* Sources */,
 				829ACD651CC9CFCC00C66F05 /* Frameworks */,
@@ -245,14 +237,14 @@
 			dependencies = (
 				829ACD6A1CC9CFCC00C66F05 /* PBXTargetDependency */,
 			);
-			name = CFWaterWaveTests;
-			productName = CFWaterWaveTests;
-			productReference = 829ACD681CC9CFCC00C66F05 /* CFWaterWaveTests.xctest */;
+			name = ZLYWaterWaveTests;
+			productName = ZLYWaterWaveTests;
+			productReference = 829ACD681CC9CFCC00C66F05 /* WaterWaveTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		829ACD721CC9CFCC00C66F05 /* CFWaterWaveUITests */ = {
+		829ACD721CC9CFCC00C66F05 /* ZLYWaterWaveUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 829ACD821CC9CFCC00C66F05 /* Build configuration list for PBXNativeTarget "CFWaterWaveUITests" */;
+			buildConfigurationList = 829ACD821CC9CFCC00C66F05 /* Build configuration list for PBXNativeTarget "ZLYWaterWaveUITests" */;
 			buildPhases = (
 				829ACD6F1CC9CFCC00C66F05 /* Sources */,
 				829ACD701CC9CFCC00C66F05 /* Frameworks */,
@@ -263,9 +255,9 @@
 			dependencies = (
 				829ACD751CC9CFCC00C66F05 /* PBXTargetDependency */,
 			);
-			name = CFWaterWaveUITests;
-			productName = CFWaterWaveUITests;
-			productReference = 829ACD731CC9CFCC00C66F05 /* CFWaterWaveUITests.xctest */;
+			name = ZLYWaterWaveUITests;
+			productName = ZLYWaterWaveUITests;
+			productReference = 829ACD731CC9CFCC00C66F05 /* ZLYWaterWaveUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -274,6 +266,7 @@
 		829ACD471CC9CFCB00C66F05 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZLY;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "周凌宇";
 				TargetAttributes = {
@@ -291,7 +284,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 829ACD4A1CC9CFCB00C66F05 /* Build configuration list for PBXProject "CFWaterWave" */;
+			buildConfigurationList = 829ACD4A1CC9CFCB00C66F05 /* Build configuration list for PBXProject "ZLYWaterWave" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -304,9 +297,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				829ACD4E1CC9CFCB00C66F05 /* CFWaterWave */,
-				829ACD671CC9CFCC00C66F05 /* CFWaterWaveTests */,
-				829ACD721CC9CFCC00C66F05 /* CFWaterWaveUITests */,
+				829ACD4E1CC9CFCB00C66F05 /* ZLYWaterWave */,
+				829ACD671CC9CFCC00C66F05 /* ZLYWaterWaveTests */,
+				829ACD721CC9CFCC00C66F05 /* ZLYWaterWaveUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -316,9 +309,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				829ACD621CC9CFCB00C66F05 /* LaunchScreen.storyboard in Resources */,
+				82CC1E911DD06F06004E8276 /* Main.storyboard in Resources */,
 				829ACD5F1CC9CFCB00C66F05 /* Assets.xcassets in Resources */,
-				829ACD5D1CC9CFCB00C66F05 /* Main.storyboard in Resources */,
+				82CC1E901DD06F06004E8276 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,10 +384,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82288D5E1CD1F23F00D0AB4D /* CFWaterWave.m in Sources */,
 				829ACD541CC9CFCB00C66F05 /* main.m in Sources */,
 				829ACD8B1CC9D1D500C66F05 /* AppDelegate.m in Sources */,
-				829ACD911CC9D34200C66F05 /* CFViewController.m in Sources */,
+				82CC1E951DD07379004E8276 /* ZLYWaterWave.m in Sources */,
+				829ACD911CC9D34200C66F05 /* ZLYViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,7 +395,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				829ACD6D1CC9CFCC00C66F05 /* CFWaterWaveTests.m in Sources */,
+				829ACD6D1CC9CFCC00C66F05 /* ZLYWaterWaveTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,7 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				829ACD781CC9CFCC00C66F05 /* CFWaterWaveUITests.m in Sources */,
+				829ACD781CC9CFCC00C66F05 /* ZLYWaterWaveUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,33 +412,31 @@
 /* Begin PBXTargetDependency section */
 		829ACD6A1CC9CFCC00C66F05 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 829ACD4E1CC9CFCB00C66F05 /* CFWaterWave */;
+			target = 829ACD4E1CC9CFCB00C66F05 /* ZLYWaterWave */;
 			targetProxy = 829ACD691CC9CFCC00C66F05 /* PBXContainerItemProxy */;
 		};
 		829ACD751CC9CFCC00C66F05 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 829ACD4E1CC9CFCB00C66F05 /* CFWaterWave */;
+			target = 829ACD4E1CC9CFCB00C66F05 /* ZLYWaterWave */;
 			targetProxy = 829ACD741CC9CFCC00C66F05 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		829ACD5B1CC9CFCB00C66F05 /* Main.storyboard */ = {
+		82CC1E8C1DD06F06004E8276 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				829ACD5C1CC9CFCB00C66F05 /* Base */,
-			);
-			name = Main.storyboard;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		829ACD601CC9CFCB00C66F05 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				829ACD611CC9CFCB00C66F05 /* Base */,
+				82CC1E8D1DD06F06004E8276 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			path = ..;
+			sourceTree = "<group>";
+		};
+		82CC1E8E1DD06F06004E8276 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82CC1E8F1DD06F06004E8276 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -540,9 +531,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = CFWaterWave/Info.plist;
+				INFOPLIST_FILE = ZLYWaterWave/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.coderfish.ios.CFWaterWave;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coderfish.ios.ZLYWaterWave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -555,9 +546,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = CFWaterWave/Info.plist;
+				INFOPLIST_FILE = ZLYWaterWave/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.coderfish.ios.CFWaterWave;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coderfish.ios.ZLYWaterWave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -567,11 +558,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = CFWaterWaveTests/Info.plist;
+				INFOPLIST_FILE = ZLYWaterWaveTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.coderfish.ios.CFWaterWaveTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coderfish.ios.ZLYWaterWaveTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CFWaterWave.app/CFWaterWave";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLYWaterWave.app/ZLYWaterWave";
 			};
 			name = Debug;
 		};
@@ -579,40 +570,40 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = CFWaterWaveTests/Info.plist;
+				INFOPLIST_FILE = ZLYWaterWaveTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.coderfish.ios.CFWaterWaveTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coderfish.ios.ZLYWaterWaveTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CFWaterWave.app/CFWaterWave";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLYWaterWave.app/ZLYWaterWave";
 			};
 			name = Release;
 		};
 		829ACD831CC9CFCC00C66F05 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = CFWaterWaveUITests/Info.plist;
+				INFOPLIST_FILE = ZLYWaterWaveUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.coderfish.ios.CFWaterWaveUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coderfish.ios.ZLYWaterWaveUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = CFWaterWave;
+				TEST_TARGET_NAME = ZLYWaterWave;
 			};
 			name = Debug;
 		};
 		829ACD841CC9CFCC00C66F05 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = CFWaterWaveUITests/Info.plist;
+				INFOPLIST_FILE = ZLYWaterWaveUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.coderfish.ios.CFWaterWaveUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coderfish.ios.ZLYWaterWaveUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = CFWaterWave;
+				TEST_TARGET_NAME = ZLYWaterWave;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		829ACD4A1CC9CFCB00C66F05 /* Build configuration list for PBXProject "CFWaterWave" */ = {
+		829ACD4A1CC9CFCB00C66F05 /* Build configuration list for PBXProject "ZLYWaterWave" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				829ACD7A1CC9CFCC00C66F05 /* Debug */,
@@ -621,7 +612,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		829ACD7C1CC9CFCC00C66F05 /* Build configuration list for PBXNativeTarget "CFWaterWave" */ = {
+		829ACD7C1CC9CFCC00C66F05 /* Build configuration list for PBXNativeTarget "ZLYWaterWave" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				829ACD7D1CC9CFCC00C66F05 /* Debug */,
@@ -630,7 +621,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		829ACD7F1CC9CFCC00C66F05 /* Build configuration list for PBXNativeTarget "CFWaterWaveTests" */ = {
+		829ACD7F1CC9CFCC00C66F05 /* Build configuration list for PBXNativeTarget "ZLYWaterWaveTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				829ACD801CC9CFCC00C66F05 /* Debug */,
@@ -639,7 +630,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		829ACD821CC9CFCC00C66F05 /* Build configuration list for PBXNativeTarget "CFWaterWaveUITests" */ = {
+		829ACD821CC9CFCC00C66F05 /* Build configuration list for PBXNativeTarget "ZLYWaterWaveUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				829ACD831CC9CFCC00C66F05 /* Debug */,
