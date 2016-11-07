@@ -1,5 +1,5 @@
 //
-//  CFViewController.h
+//  ZLYViewController.h
 //  CFWaterWave
 //
 //  Created by 周凌宇 on 16/4/22.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CFViewController : UIViewController
+@interface ZLYViewController : UIViewController
 
 @end

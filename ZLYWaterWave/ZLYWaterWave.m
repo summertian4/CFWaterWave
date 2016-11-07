@@ -1,13 +1,13 @@
 //
-//  Waterwave.m
+//  ZLYWaterwave.m
 //  hulk
 //
-//  Created by huangyuan on 4/20/16.
-//  Copyright © 2016 WangZhaoYun. All rights reserved.
+//  Created by 周凌宇 on 16/4/22.
+//  Copyright © 2016年 周凌宇. All rights reserved.
 //
 
-#import "CFWaterWave.h"
-@interface CFWaterWave ()
+#import "ZLYWaterWave.h"
+@interface ZLYWaterWave ()
 @property (nonatomic, assign) CGRect  frame;
 // 最高或者最低是反向波动标识
 @property (nonatomic, assign) BOOL    waveUp;
@@ -17,7 +17,7 @@
 
 @end
 
-@implementation CFWaterWave
+@implementation ZLYWaterWave
 
 #pragma mark - ===============================Life Cycle===============================
 - (instancetype)initWithFrame:(CGRect)frame {

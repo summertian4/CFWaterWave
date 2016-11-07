@@ -1,31 +1,31 @@
 //
-//  CFViewController.m
-//  CFWaterWave
+//  ZLYViewController.m
+//  ZLYWaterWave
 //
 //  Created by 周凌宇 on 16/4/22.
 //  Copyright © 2016年 周凌宇. All rights reserved.
 //
 
-#import "CFViewController.h"
-#import "CFWaterWave.h"
+#import "ZLYViewController.h"
+#import "ZLYWaterWave.h"
 #import "MJRefresh.h"
 
 
 #define kSCREEN_HEIGHT [[UIScreen mainScreen]bounds].size.height
 #define kSCREEN_WIDTH [[UIScreen mainScreen]bounds].size.width
 
-@interface CFViewController () <CFWaterWaveDelegate>
+@interface ZLYViewController () <ZLYWaterWaveDelegate>
 
 /** 白色图片 */
 @property (nonatomic, weak  ) UIImageView *pic_white;
 /** 红色图片 */
 @property (nonatomic, weak  ) UIImageView *pic_red;
 /** 水波工具 */
-@property (nonatomic, strong) CFWaterWave *waterWave;
+@property (nonatomic, strong) ZLYWaterWave *waterWave;
 
 @end
 
-@implementation CFViewController
+@implementation ZLYViewController
 
 #pragma mark - ========================Life Cycle========================
 - (void)viewDidLoad {
@@ -37,18 +37,18 @@
     
 }
 
-#pragma mark - ========================CFWaterWave Delegate========================
-- (void)waterWave:(CFWaterWave *)waterWave wavePath:(UIBezierPath *)path {
+#pragma mark - ========================ZLYWaterWave Delegate========================
+- (void)waterWave:(ZLYWaterWave *)waterWave wavePath:(UIBezierPath *)path {
     CAShapeLayer *maskLayer = [[CAShapeLayer alloc] init];
     maskLayer.path = path.CGPath;
     self.pic_red.layer.mask = maskLayer;
 }
 
 #pragma mark - ========================Getter Setter========================
-- (CFWaterWave *)waterWave {
+- (ZLYWaterWave *)waterWave {
     if (_waterWave == nil) {
         CGRect frame = CGRectMake(self.pic_red.mj_x, self.pic_red.mj_y, self.pic_red.mj_w, self.pic_red.mj_h);
-        _waterWave = [[CFWaterWave alloc] initWithFrame:frame];
+        _waterWave = [[ZLYWaterWave alloc] initWithFrame:frame];
         _waterWave.delegate = self;
     }
     return _waterWave;
