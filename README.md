@@ -60,3 +60,10 @@ ZLYWaterWave的原理很简单，我们用Example里的工程做简介。(这里
 如果有什么修改建议，可以发送邮件到coderfish@163.com，也欢迎到[我的博客](http://zhoulingyu.com)一起讨论学习哟~
 
 
+----
+
+2016年11月7日更新
+
+由于 CF 前缀有 `Core Foundation` 歧义，更改为 ZLY。
+
+
