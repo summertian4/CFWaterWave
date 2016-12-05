@@ -18,7 +18,15 @@ ZLYWaterWave的原理很简单，我们用Example里的工程做简介。(这里
 6. 如果你还是晕晕的，那就直接看Example吧，相信你瞬间就会明白的
 
 # 安装
-直接拽入`ZLYWaterWave.h`和`ZLYWaterWave.m`文件
+1. CocoaPods
+
+   ```
+   pod ‘ZLYWaterWave’
+   ```
+
+2. 直接安装
+
+   直接拽入`ZLYWaterWave.h`和`ZLYWaterWave.m`文件
 
 # 使用ZLYWaterWave
 1. 创建ZLYWaterWave对象
@@ -58,7 +66,6 @@ ZLYWaterWave的原理很简单，我们用Example里的工程做简介。(这里
 # 反馈
 
 如果有什么修改建议，可以发送邮件到coderfish@163.com，也欢迎到[我的博客](http://zhoulingyu.com)一起讨论学习哟~
-
 
 ----
 
