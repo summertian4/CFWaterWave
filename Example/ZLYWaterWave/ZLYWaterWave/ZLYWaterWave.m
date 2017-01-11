@@ -33,7 +33,9 @@
     self.waveSpeed = 0;
     self.waveUp = NO;
     // 每次0.05秒执行一次动画
-    [NSTimer scheduledTimerWithTimeInterval:.05 target:self selector:@selector(waving) userInfo:nil repeats:YES];
+    CADisplayLink *link = [CADisplayLink displayLinkWithTarget:self selector:@selector(waving)];
+    link.frameInterval = 0.05;
+    [link addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSDefaultRunLoopMode];
 }
 
 /**
