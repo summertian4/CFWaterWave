@@ -21,11 +21,31 @@
 @end
 
 @interface ZLYWaterWave : NSObject
+
 - (id)initWithFrame:(CGRect)frame;
-/**
- *  水深占比，0 to 1;
- */
+
+/** 水深占比，0 to 1; */
 @property(nonatomic, assign)CGFloat waterDepth;
+
+/** 波浪速度，默认 0.05f */
+@property (nonatomic, assign) CGFloat speed;
+
+/** 波浪幅度 */
+@property (nonatomic, assign) CGFloat amplitude;
+
+/** 波浪紧凑程度（角速度），默认 1.0 */
+@property (nonatomic, assign) CGFloat angularVelocity;
+
+/**
+ 开始波动
+ */
+- (void)startAnimation;
+
+/**
+ 停止波动
+ */
+- (void)stopAnimation;
+
 /** 代理 */
 @property (nonatomic, weak) id<ZLYWaterWaveDelegate> delegate;
 

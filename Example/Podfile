@@ -1,1 +1,6 @@
-pod 'MJRefresh'
+platform :ios, ‘7.0’
+
+target 'ZLYWaterWave' do
+  pod 'MJRefresh'
+  pod 'Masonry'
+end
