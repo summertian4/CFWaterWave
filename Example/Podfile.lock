@@ -1,10 +1,15 @@
 PODS:
-  - MJRefresh (3.1.0)
+  - Masonry (1.0.2)
+  - MJRefresh (3.1.12)
 
 DEPENDENCIES:
+  - Masonry
   - MJRefresh
 
 SPEC CHECKSUMS:
-  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 37933c38b2836ea16baed0463aa968dd1976f2d2
+
+COCOAPODS: 1.2.0

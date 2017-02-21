@@ -9,7 +9,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods.xcscheme</key>
+		<key>Masonry.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ZLYWaterWave.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>8F74D9EA91F4C43190670066BAC37D44</key>
+		<key>04CF549EBEEE7BC87AEAE35397184D94</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F35FDCD1780076FFF6749D3A745F26AD</key>
+		<key>9DC8D9E02903E93BD0B2FEC9D846EA20</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EA15CF790154F5E45CD21150C6712ECC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
